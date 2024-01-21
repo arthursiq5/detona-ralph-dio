@@ -4,6 +4,7 @@ main,
     flex-wrap: wrap;
     flex-direction: column;
     height: 100vh;
+    background-image: url('../assets/img/wall.png');
 }
 
 main .menu {
@@ -15,10 +16,22 @@ main .menu {
     width: 100%;
     background-color: #000;
     color: #fff;
+    border-bottom: 5px solid #ffd700;
 }
 
 main .menu .title {
     color: #f00;
+}
+
+main .menu .menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .menu .menu-lives img {
+    width: 50px;
+    margin-right: 5px;
 }
 
 main .panel {
@@ -26,17 +39,16 @@ main .panel {
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
-    border: 1px solid #f00;
 }
 
 main .panel .square {
     height: 150px;
     width: 150px;
     border: 1px solid #000000;
-    background-color: #7fffd4;
+    background-color: #999;
 }
 
 main .panel .square.enemy {
-    background-color: #f00;
-    background-image: url('../assets/');
+    background-image: url('../assets/img/ralph.png');
+    background-size: cover;
 }
