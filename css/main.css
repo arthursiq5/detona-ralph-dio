@@ -38,4 +38,5 @@ main .panel .square {
 
 main .panel .square.enemy {
     background-color: #f00;
+    background-image: url('../assets/');
 }
