@@ -23,6 +23,11 @@ main .menu .title {
     color: #f00;
 }
 
+main .menu .menu-time h2:nth-child(2),
+main .menu .menu-score h2:nth-child(2) {
+    margin-top: .7rem;
+}
+
 main .menu .menu-lives {
     display: flex;
     align-items: center;
